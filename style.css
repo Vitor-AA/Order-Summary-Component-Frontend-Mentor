@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(images/pattern-background-desktop.svg) no-repeat hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main{
+    background: #FFF;
+    max-width: 340px;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+
+main img{
+    max-width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+main h1{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: hsl(223, 47%, 23%);
+    padding: 1rem;
+}
+
+main>p{
+    color: hsl(224, 23%, 55%);
+}
+
+main .plan{
+    background:  hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+main div .price{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan a{
+    color: hsl(245, 75%, 52%);
+    transition-delay: 3ms;
+    font-size: 90%;
+}
+
+.plan a:hover{
+    color: hsla(245, 75%, 52%, 0.753);
+}
+
+.icon{
+    height: 2rem;
+    width: 2rem;
+}
+
+.text p{
+    font-size: 90%;
+    padding: 0 10px;
+}
+
+.text p:first-child{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+
+div button{
+    border: none;
+    padding: 0.7rem 5.2rem;
+    margin-bottom: 1rem;
+    background: hsl(245, 75%, 52%);
+    color: #FFF;
+    border-radius: 0.5rem;
+    transition-delay: 3ms;
+    filter: drop-shadow(0px 8px 6px rgba(7, 23, 255, 0.245));
+}
+
+div button:hover{
+    background: hsla(245, 75%, 52%, 0.753);
+    cursor: pointer;
+}
+
+main>a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 80%;
+}
+
+main>a:hover{
+    color: hsl(223, 47%, 23%);
+    font-weight: 500;
+}
+
+footer{
+    font-size: smaller;
+    color: hsl(224, 23%, 55%);
+}
+
+footer a{
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+    transition: 5ms;
+}
+
+footer a:hover{
+    font-size: 1rem;
+}
